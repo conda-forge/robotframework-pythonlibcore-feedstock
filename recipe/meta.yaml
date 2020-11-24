@@ -15,16 +15,16 @@ source:
     sha256: ab4d6ad169d3894741ad328aedc796bc1c60c366f38b0076fa00626428dc9375
 
 build:
-  number: 0
+  number: 1
   noarch: python
-  script: {{ PYTHON }} -m pip install . -vv
+  script: {{ PYTHON }} -m pip install . -vv --no-deps
 
 requirements:
   host:
     - pip
-    - python <4.0.0
+    - python >=2.7
   run:
-    - python <4.0.0
+    - python >=2.7
     - robotframework
 
 test:
@@ -53,3 +53,4 @@ about:
 extra:
   recipe-maintainers:
     - bollwyvl
+    - martinRenou
