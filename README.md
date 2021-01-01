@@ -9,7 +9,6 @@ Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/robotframework-
 
 Summary: Tools to ease creating larger test libraries for Robot Framework using Python.
 
-Tools to ease creating larger test libraries for Robot Framework using Python.
 The Robot Framework hybrid and dynamic library API gives more flexibility for
 library than the static library API, but they also sets requirements for
 libraries which needs to be implemented in the library side. PythonLibCore
