@@ -1,5 +1,5 @@
 {% set name = "robotframework-pythonlibcore" %}
-{% set version = "2.1.0" %}
+{% set version = "2.2.0" %}
 
 package:
   name: {{ name }}
@@ -7,7 +7,7 @@ package:
 
 source:
   - url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-    sha256: 8b210bf29cbb78069b41a3d0b90e4cc8dd23f509ea2daf450e3ef4a6ee758949
+    sha256: 6fa2c052f6c9c98bfe69b804b42618086d7b33115963a1da131d1f2d8b774835
   # TODO: remove if/when packaged by upstream
   - url: https://raw.githubusercontent.com/robotframework/PythonLibCore/v{{ version }}/LICENSE.txt
     sha256: cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30
@@ -15,7 +15,7 @@ source:
     sha256: ab4d6ad169d3894741ad328aedc796bc1c60c366f38b0076fa00626428dc9375
 
 build:
-  number: 1
+  number: 0
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv --no-deps
 
