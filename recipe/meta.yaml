@@ -1,5 +1,5 @@
 {% set name = "robotframework-pythonlibcore" %}
-{% set version = "2.2.0" %}
+{% set version = "2.2.1" %}
 
 package:
   name: {{ name }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 6fa2c052f6c9c98bfe69b804b42618086d7b33115963a1da131d1f2d8b774835
+  sha256: 1b311764721b6117d85b0702ab95a7f1d0525d9d3e3433cca02cdbc0010edb55
 
 build:
   number: 0
