@@ -1,12 +1,11 @@
-{% set name = "robotframework-pythonlibcore" %}
 {% set version = "4.0.0" %}
 
 package:
-  name: {{ name }}
+  name: robotframework-pythonlibcore
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
+  url: https://pypi.io/packages/source/r/robotframework-pythonlibcore/robotframework-pythonlibcore-{{ version }}.tar.gz
   sha256: 6028f4323b2ba30e1521f978e2e959107adb8590b5d3f2923af3c712315d494c
 
 build:
@@ -17,9 +16,9 @@ build:
 requirements:
   host:
     - pip
-    - python >=2.7
+    - python >=3.7
   run:
-    - python >=2.7
+    - python >=3.7
     - robotframework
 
 test:
