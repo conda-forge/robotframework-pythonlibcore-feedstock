@@ -1,11 +1,11 @@
-About robotframework-pythonlibcore
-==================================
+About robotframework-pythonlibcore-feedstock
+============================================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/robotframework-pythonlibcore-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/robotframework/PythonLibCore
 
 Package license: Apache-2.0
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/robotframework-pythonlibcore-feedstock/blob/main/LICENSE.txt)
 
 Summary: Tools to ease creating larger test libraries for Robot Framework using Python.
 
