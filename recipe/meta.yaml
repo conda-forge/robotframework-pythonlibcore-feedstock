@@ -1,4 +1,4 @@
-{% set version = "4.3.0" %}
+{% set version = "4.4.0" %}
 
 package:
   name: robotframework-pythonlibcore
@@ -6,7 +6,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/r/robotframework-pythonlibcore/robotframework-pythonlibcore-{{ version }}.tar.gz
-  sha256: 29aacdfc19aca812e9ace14cfb8cfd8a14298ed9fbddbeceef964c2c2e84d6c6
+  sha256: de0eeabdae23f22d452a0a9f70531fb3e92e18eb7ac8a520fcfbd91cb85a84f7
 
 build:
   number: 0
