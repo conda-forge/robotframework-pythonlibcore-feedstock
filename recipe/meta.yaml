@@ -5,20 +5,20 @@ package:
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/r/robotframework-pythonlibcore/robotframework-pythonlibcore-{{ version }}.tar.gz
+  url: https://pypi.org/packages/source/r/robotframework-pythonlibcore/robotframework-pythonlibcore-{{ version }}.tar.gz
   sha256: 2d695b2ea906f5815179643e29182466675e682d82c5fa9d1009edfae2f84b16
 
 build:
-  number: 0
+  number: 1
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv --no-deps
 
 requirements:
   host:
     - pip
-    - python >=3.8
+    - python {{ python_min }}
   run:
-    - python >=3.8
+    - python >={{ python_min }}
     - robotframework
 
 test:
@@ -28,6 +28,7 @@ test:
     - pip check
   requires:
     - pip
+    - python {{ python_min }}
 
 about:
   home: https://github.com/robotframework/PythonLibCore
