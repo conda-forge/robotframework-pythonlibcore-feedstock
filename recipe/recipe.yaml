@@ -77,15 +77,14 @@ about:
   license_file:
     - dist/LICENSE.txt
     - dist/COPYRIGHT.txt
+  homepage: https://pypi.org/project/robotframework-pythonlibcore
+  repository: https://github.com/robotframework/PythonLibCore
   description: |-
     The Robot Framework hybrid and dynamic library API gives more flexibility for
     library than the static library API, but they also sets requirements for
     libraries which needs to be implemented in the library side. PythonLibCore
     eases the problem by providing simpler interface and handling all the
     requirements towards the Robot Framework library APIs.
-
-
-  homepage: https://github.com/robotframework/PythonLibCore
 
 extra:
   recipe-maintainers:
