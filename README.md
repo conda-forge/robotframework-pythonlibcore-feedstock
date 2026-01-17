@@ -3,11 +3,13 @@ About robotframework-pythonlibcore-feedstock
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/robotframework-pythonlibcore-feedstock/blob/main/LICENSE.txt)
 
-Home: https://github.com/robotframework/PythonLibCore
+Home: https://pypi.org/project/robotframework-pythonlibcore
 
 Package license: Apache-2.0
 
 Summary: Tools to ease creating larger test libraries for Robot Framework using Python.
+
+Development: https://github.com/robotframework/PythonLibCore
 
 The Robot Framework hybrid and dynamic library API gives more flexibility for
 library than the static library API, but they also sets requirements for
