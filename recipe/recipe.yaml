@@ -2,7 +2,7 @@
 schema_version: 1
 
 context:
-  version: "4.5.1"
+  version: "4.6.0"
   python_check_max: "3.14"
   # space-delimited paths to undiscoverable test tiles
   ## - test_get_keyword_source.py needs pytest-mockito
@@ -17,10 +17,10 @@ package:
 source:
   - target_directory: dist
     url: https://pypi.org/packages/source/r/robotframework-pythonlibcore/robotframework_pythonlibcore-${{ version }}.tar.gz
-    sha256: 3a9d1dd8ba7b06eb649f5cb0b631fbee7e95984f5e2432c48849c37bb48921f9
+    sha256: c45acbdf781b35a5cbac8e1c019fedab87d99f34ff29a6c99b774fbd95313f27
   - target_directory: src
     url: https://github.com/robotframework/PythonLibCore/archive/refs/tags/v${{ version }}.tar.gz
-    sha256: 988901e2d1ec38c52bd1cba9dc4a79cdb9940dc12dfed307306672c191b08ca0
+    sha256: c124e61ebaca59cb685cbce5ff57054bbcd29f7254750cb1c8d6daf94f6782b1
 
 build:
   number: 0
